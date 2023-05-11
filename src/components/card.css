@@ -1,0 +1,30 @@
+.group437{
+    position: absolute;
+width: 281.17px;
+height: 164px;
+left: 200px;
+top: 600px;
+}
+.rectangle4{
+    position: absolute;
+width: 281.17px;
+height: 164px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 7px 10px 50px #E8E2F0;
+border-radius: 4px;
+}
+.rectangle3{
+ position: absolute;
+width: 4px;
+height: 164px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(150.72deg, #00B5D0 3.87%, #5C0E62 110.68%);
+box-shadow: 7px 10px 50px #E8E2F0;
+border-radius: 5px 0px 0px 5px;
+
+}

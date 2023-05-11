@@ -1,0 +1,273 @@
+/* .curved-background {
+    position: relative;
+    height: 500px;
+    background-color: #f5f5f5;
+    border-radius: 0 0 50% 50%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content {
+    position: relative;
+    z-index: 2;
+    margin-top: 100px;
+    padding: 20px;
+  }
+  
+  h1, p {
+    text-align: center;
+  }
+  
+  p {
+    max-width: 600px;
+    margin: 0 auto;
+  } */
+
+  /* .curved-background {
+    position: relative;
+    height: 500px;
+    background-color: #f5f5f5;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 70% 100%, 0 100%);
+  }
+  
+  .content {
+    position: relative;
+    z-index: 2;
+    margin-top: 100px;
+    padding: 20px;
+  }
+  
+  h1, p {
+    text-align: center;
+  }
+  
+  p {
+    max-width: 600px;
+    margin: 0 auto;
+  } */
+
+.container{
+  position: relative;
+width: 100%;
+height: 100%;
+
+
+
+}
+.vector1{
+ 
+  position: absolute;
+width:100%;
+height: 971.33px;
+top: -296.34px;
+z-index: 0;
+}
+.vector2{
+position: absolute;
+width: 100%;
+height: 776.23px;
+top: -450.82px;
+z-index:1 ;
+}
+
+.img2{
+ position: absolute;
+width: 881.63px;
+height: 661.8px;
+left: 350.82px;
+}
+.img1{
+  position: absolute;
+width: 881.63px;
+height: 661.8px;
+left: 350.82px;
+}
+  
+.groub-16-h1{
+  position: absolute;
+  width: 397.04px;
+  height: 132.35px;
+  left: 168px;
+  /* top: 239.02px; */
+  
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 54.7642px;
+  line-height: 67px;
+  
+  color: #FFFFFF;
+
+}
+.groub-16-p{
+  position: absolute;
+width: 421px;
+height: 43.36px;
+left: 168px;
+top: 189.62px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 18.2547px;
+line-height: 22px;
+
+color: #FFFFFF;
+}
+.groub-3{
+  position: absolute;
+width: 81px;
+height: 22px;
+left: 227px;
+top: 300px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+box-sizing: border-box;
+
+position: absolute;
+width: 200px;
+height: 50px;
+left: 168px;
+top: 271px;
+
+background: #798AC9;
+border: 1px solid rgba(171, 163, 163, 0.2);
+border-radius: 4px;
+}
+.group-17{
+  position: absolute;
+width: 331px;
+height: 258px;
+left: 911px;
+top: 680px;
+
+}
+.group-17-h3{
+  
+width: 331px;
+height: 153px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 128.6%;
+/* or 51px */
+
+letter-spacing: 0.04em;
+
+color: #0c0c0c;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.vector3{
+width: 100%;
+}
+
+.group11{
+  width: 281.17px;
+  height: 164px;  
+flex: none;
+  order: 0;
+  flex-grow: 0;;
+}
+.group12{
+  width: 281.17px;
+  height: 164px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.group10{
+  width: 280px;
+  height: 164px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.groub8{
+  width: 280px;
+  height: 164px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+
+
+
+
+
+  .background {
+    border-radius: 0 0 70% 70% ;
+    background: linear-gradient(99.22deg, #5C0E62 1.27%, #00B5D0 92.23%);
+    position:absolute;
+width: 100%;
+height: 971.33px;
+ left: .38px; 
+ top: -82%; 
+ z-index: -2; 
+  }
+  .background2 {
+    border-radius: 0 0 70% 70% ;
+    background: linear-gradient(99.22deg, #5C0E62 1.27%, #00B5D0 92.23%);
+    position:fixed;
+width: 100%;
+height: 971.33px;
+ top: -130%; 
+ z-index: -1; 
+  }
+    /* .background {
+      border-radius: 0 0 70% 70%;
+      transform: skewY(-50deg);
+    } */
+  .background {
+    border-radius: 0 0 2% 50% ;
+    transform: skewY(-20deg);
+    transform: skew(25deg,-18deg);
+    clip-path: polygon(0% 0%, 98% 0%, 90% 100%, 0% 100%);
+
+  }
+  .background2 {
+    border-radius: 0 0 2% 50% ;
+    transform: skewY(-90deg);
+    transform: skew(50deg,-18deg);
+    clip-path: polygon(0% 0%, 98% 0%, 90% 100%, 0% 100%);
+
+  }
+  /* .background{
+    
+    background: linear-gradient(99.22deg, #5C0E62 1.27%, #00B5D0 92.23%);
+    border-radius:  0 0 50% 50%;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+    transform: skewY(-20deg);
+    position: absolute;
+    width: 100%;
+    height: 971.33px;
+     left: .38px; 
+     top: -296.34px; 
+  } */
+ 
+
